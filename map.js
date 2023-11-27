@@ -38,10 +38,8 @@ numbers.forEach((number=>squaredNumbers.push(number*2))
 
 
 //find  method 
+//const numbers = [1, 2, 3, 4, 5, 6];
 
-const finstBook = books.find(function (book) {
-  return book.author === "J.D. Salinger";
-});
+//const finds = numbers.find(function (num) {
 
-console.log(fiNstBook);
-
+ // return num > 3
