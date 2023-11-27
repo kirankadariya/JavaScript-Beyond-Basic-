@@ -25,3 +25,23 @@ const capitalizedNames = names.map(function (name) {
 });
 
 console.log(capitalizedNames);
+
+//forEach 
+
+const squaredNumbers = [];
+numbers.forEach(function (number) {
+  squaredNumbers.push(number * number);
+});
+
+numbers.forEach((number=>squaredNumbers.push(number*2))
+  
+
+
+//find  method 
+
+const finstBook = books.find(function (book) {
+  return book.author === "J.D. Salinger";
+});
+
+console.log(fiNstBook);
+
