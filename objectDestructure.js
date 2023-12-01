@@ -13,9 +13,17 @@ const pet = {
       color: "Deep Blue Metallic",
     };
   }
+
+  for (const make in getCarInfo){
+    console.log()
+  }
+
+  const na = 'kiran';
+
+  console.log('I want to print ${na}')
   
-  const { make, model, year, color } = getCarInfo();
-  console.log(make, model, year, color);
+  const {make, model, year, color }= getCarInfo();
+  console.log(make , model, year, color);
   
   
   function greetPet({ name, breed, age }) {
