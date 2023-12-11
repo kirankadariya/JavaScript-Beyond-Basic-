@@ -33,13 +33,19 @@ numbers.forEach(function (number) {
   squaredNumbers.push(number * number);
 });
 
-numbers.forEach((number=>squaredNumbers.push(number*2))
+//numbers.forEach((number=>squaredNumbers.push(number*2))
   
 
 
 //find  method 
-//const numbers = [1, 2, 3, 4, 5, 6];
+const foundNumber = numbers.find(function (number) {
+  return number > 3;
+});
+const numb = [1, 2, 3, 4, 5, 6]
 
-//const finds = numbers.find(function (num) {
+const finds = numb.find(function (num) {
 
- // return num > 3
+ return num > 3
+})
+
+console.log(finds)

@@ -1,4 +1,4 @@
-
+const numbers = [ 1, 2, 3, 4, 5 ,7]
 
 const people = [
   { name: "Alice", age: 30 },
@@ -18,7 +18,7 @@ const filterPeople = people
 const sum= numbers
             .map(num => num * 2)
             .filter(num =>  num <=6)
-            .reduce((acc, num) => sum= acc + num);
-
+            .reduce((acc, num) =>  acc + num, 10);
 
 console.log(sum);
+

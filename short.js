@@ -4,7 +4,7 @@ const firstName = "Marty";
 const lastName = "McFly";
 const hobby = "skateboarding";
 
-const timeTraveler = {
+ const timeTraveler = {
   firstName,
   lastName,
   hobby,

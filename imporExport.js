@@ -1,4 +1,4 @@
-// Importing and exporting modules
+/* Importing and exporting modules
 import sum, { findMax } from "./myFunctions.js";
 import items, { people } from "./myArrays.js";
 import { person as lorraine } from "./myObjects.js";
@@ -49,3 +49,5 @@ const items = [
       console.log(`Hi, my name is ${this.name} and I am ${this.age} years old.`);
     },
   };
+
+  */
